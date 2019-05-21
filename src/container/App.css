@@ -1,0 +1,1143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.header_section {
+  width: 100%;  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo_section {
+  overflow: hidden;
+  padding: 5px 0;
+  background-color: #fff;
+}
+
+.header_logo {
+  width: 25%;
+  float: left;
+}
+
+.header_logo > div {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.header_logo > div > img{
+  width: 100%;
+}
+
+.header_menu {
+  width: 50%;
+  padding-top: 20px;
+  float: left;
+}
+
+.header_menu > ul {
+  list-style-type: none;
+}
+
+.header_menu > ul > li {
+  display: inline-block;
+  width: 20%;
+  color: #ccc;
+}
+
+.my-active {
+  color: #ccc;
+}
+
+.header_client {
+  width: 25%;
+  float: left;
+}
+
+.header_client > div {
+  width: 75px;
+  float: right;
+}
+
+.header_client > div > img {
+  width: 100%;
+}
+
+.text_section {
+  overflow: hidden;
+  text-align: left;
+  padding: 10px 0;
+  background-color: #F4F8F9;
+}
+
+.text_section > span {
+  font-size: 18px;
+  color: #233539;
+  font-weight: normal;
+}
+
+.text_section > div {
+  font-weight: 600;
+  font-size: 1.7em;
+  color: #233539;
+}
+
+.text_section > p {
+  font-size: 14px;
+  margin: 0;
+  color: #B5BDBF;
+  font-weight: normal;
+}
+
+.detail_section {
+  min-height: 400px;
+  padding: 20px 0 50px 0;
+  background-color: #F4F8F9;
+}
+
+.detail_section_head {
+  padding: 20px 0 0 0;
+  background-color: #F4F8F9;
+}
+
+.detail_section_employee {
+  min-height: 400px;
+  background-color: #F4F8F9;
+}
+
+.login_page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0b2591;
+  background-image: url('/images/login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+.login_page > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.new_logo {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.login_header {
+  max-width: 300px;
+    min-height: 130px;
+    padding-top: 30px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 3em;
+    line-height: .8;
+    font-weight: 600;
+    position: relative;
+}
+
+.login_header > div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 25px;
+  width: 100%;
+  text-align: right;
+}
+
+.ro {
+  color: #FF8F0C;
+}
+
+.ve {
+  color: #fff;
+}
+
+.login_box {
+  max-width: 600px;
+  padding: 50px 10px;
+  background-color: #16359c;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+.login_box_input {
+  max-width: 400px;
+  margin: 0 auto 20px auto;
+}
+
+.login_box_input {
+  text-align: left;
+  margin-bottom: 20px;  
+}
+
+.login_box_input > span {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.login_box_input > div {
+  height: 40px;
+  overflow: hidden;
+  border-bottom: 2px solid #fff;  
+  position: relative;
+}
+
+.login_box_input > div > div {
+  position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #cccccc3d;
+    cursor: pointer;
+}
+
+.login_box_input > div > input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0 10px;
+  background-color: transparent; 
+}
+
+.login_error {
+  margin-bottom: 10px;
+  color: #ccc;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.login_box_button {
+  max-width: 400px;
+  border-radius: 5px;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #FF8F0C;
+}
+
+
+.login_box_button > button {
+  max-width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loader {
+  width: 40px;
+  margin: 20px auto;
+}
+
+.btn_loader {
+  padding: 10px;
+}
+
+.btn_loader > div {
+  width: 30px;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.spinning {
+  animation: spin .3s infinite linear
+}
+
+.home_header {
+  height: 80px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.home_header_left {
+  float: left;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.home_header_left > div {
+  width: 150px;
+  padding: 20px 0;
+  font-size: 16px;
+  float: left;
+}
+
+.home_header_left > div > a {
+  padding: 14px 0;
+  color: #000;
+}
+
+.home_header_inside {
+  width: 100%;
+  padding: 20px 0;
+  /* border-bottom: 5px solid #0b2591; */
+  color: #000;
+}
+
+.my-active-home {
+  border-bottom: 5px solid #0b2591;
+}
+
+.home_header_right {
+  float: right;
+  width: 20%;
+}
+
+.home_header_right > div {
+  width: 150px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #FF8F0C;
+  float: right;
+}
+
+.employee_menu {
+  height: 50px;
+  background-color: #0b2591;
+}
+
+.employee_menu > div {
+  float: left;
+  height: 50px;
+  width: 200px;
+  font-size: 14px;
+  padding-top: 17px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.employee_menu > div:hover {
+  border-bottom: 5px solid #fff;
+}
+
+.employee_menu_active {
+  border-bottom: 5px solid #fff;
+}
+
+.employee_body {
+  margin-bottom: 100px;
+}
+
+.bold_value {
+  color: rgba(221, 221, 221, 0.3);;
+  font-weight: 900;
+}
+
+.payroll_table {
+  width: 100%;
+}
+
+.payroll_table_header {
+  padding: 10px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc; 
+  height: 57px;
+}
+
+.payroll_table_account {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.payroll_table_name {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.payroll_table_hour {
+  width: 10%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.payroll_table_salary {
+  width: 10%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.payroll_table_amount {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.payroll_table_status {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.payroll_report_date {
+  width: 10%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.payroll_report_report {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.payroll_report_transact {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.payroll_report_total {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.payroll_report_action {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.payroll_table_body > div {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc; 
+  height: 57px;
+    overflow: hidden;
+}
+
+.payroll_table_body > div:hover {
+  box-shadow: 0 1px 1px 2px #ccc;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+
+.payroll_client_account {
+  width: 20%;
+    float: left;
+    padding-top: 5px;
+    color: #000;
+    font-size: 14px;
+}
+
+.payroll_client_acc {
+  width: 20%;
+    float: left;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+}
+
+
+.payroll_client_account > div  {
+  overflow: hidden;
+}
+
+.account_left {
+  width: 30%;
+  height: 30px;
+  float: left;
+  padding-top: 15px;
+}
+
+.account_left > input {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  outline: none;
+  background: #fff;
+}
+
+.account_right {
+  width: 70%;
+  float: left;
+  text-align: left;
+  font-size: 16px;
+  padding: 5px 0;
+  color: #757575;
+}
+
+.account_right > span {
+  color: #ddd;
+}
+
+.payroll_client_name {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.payroll_client_hour {
+  width: 10%;
+  float: left;
+  padding: 20px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.payroll_client_salary {
+  width: 10%;
+  float: left;
+  padding: 20px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.payroll_client_amount {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.payroll_client_status {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #757575;
+  font-size: 14px;
+}
+
+.pay_report_date {
+  width: 10%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.pay_report_report {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.pay_report_transact {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.pay_report_total {
+  width: 20%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.pay_report_action {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.payroll_table_footer {
+  background-color: #0b2591;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.payroll_table_footer > div {
+  float: right;
+  width: 300px;
+}
+
+.footer_total {
+  overflow: hidden;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #cccccc57;
+}
+
+.footer_percent {
+  overflow: hidden;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #cccccc57;
+}
+
+.footer_grand {
+  overflow: hidden;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px solid #cccccc57;
+}
+
+.footer_left {
+  width: 20%;
+  color: #ccc;
+  padding-top: 10px;
+  font-size: 12px;
+  float: left;
+}
+
+.footer_right {
+  width: 80%;
+  color: #fff;
+  font-size: 2em;
+  text-align: left;
+  float: right;
+}
+
+.footer_pay {
+  overflow: hidden;
+}
+
+.footer_pay > div {
+  width: 200px;
+  height: 60px;
+  overflow: hidden;
+  margin: 10px auto 0 auto;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #FF8F0C;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer_pay_left {
+  width: 110px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 13px;
+}
+
+.footer_pay_right {
+  width: 40px;
+  height: 40px;
+  float: right;
+}
+
+.footer_pay_right > div {
+  width: 18px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+.footer_pay > p{
+  margin-top: 10px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.restore {
+  text-align: center;
+    color: #0b2591;
+    border: 1px solid #0b2591;
+    font-weight: 900;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restore_csv {
+  text-align: center;
+    color: #0b2591;
+    border: 1px solid #0b2591;
+    font-weight: 900;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add_employee {
+  overflow: hidden;
+}
+
+.add_employee_left {
+  width: 30%;
+  float: left;
+  padding:  0 20px;
+}
+
+.add_employee_left > div {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #FF8F0C;
+  margin: 0 auto;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.avatar_input {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  width: 110px;
+  height: 130px;
+}
+
+.avatar_input > input {
+  width: 100%;
+  height: 130px;
+  border: none;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.add_employee_left > div > p {
+  color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add_employee_left > div > span {
+  color: #FF0000;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.add_employee_right {
+  width: 70%;
+  padding:  0 20px;
+  float: left;
+}
+
+.add_employee_right > div {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.add_employee_right > div > p {
+  color: #0b2591;
+  font-weight: 600;
+  text-align: left;
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+/* .add_employee_right > div > div {
+} */
+
+.add_employee_right > div > div > p {
+  text-align: left;
+  padding: 0 10px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.add_employee_right > div > div > div {
+  overflow: hidden;
+}
+
+.add_input {
+  width: 50%;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0 10px;
+  float: left;
+}
+
+.add_input > span {
+  color: #757575;
+  font-size: 14px;
+}
+
+.add_input > div {
+  margin-top: 5px;
+  height: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #F4F8F9;  
+  position: relative;
+}
+
+.add_input > div > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 35px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  font-size: 20px;
+  color: #ccc;
+  margin-top: 15px;
+}
+
+.add_input > div > input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+}
+
+.add_input > div > select {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+}
+
+.add_input_text {
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0 10px;
+  float: left;
+}
+
+.add_input_text > span {
+  color: #757575;
+  font-size: 14px;
+}
+
+.add_input_text > div {
+  margin-top: 5px;
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #F4F8F9;  
+}
+
+.add_input_text > div > textarea {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  padding: 5px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.add_input_btn {
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+  padding: 0 10px;
+  float: left;
+}
+
+.add_input_btn > div {
+  margin-top: 5px;
+  height: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #FF8F0C;  
+}
+
+.add_input_btn > div > button {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  padding: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.edit_profile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #16359cb0;
+  overflow: auto;
+}
+
+.edit_profile > div {
+  max-width: 700px;
+  padding: 0 10px;
+  margin: 100px auto;
+}
+
+.edit_profile > div > div {
+  position: relative;
+  padding: 20px 50px;
+  background-color: #fff;
+  border-radius: 5px;  
+  position: relative;
+}
+
+.edit_profile_close {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 50px;
+  border-radius: 60px;
+  height: 50px;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5px;
+  color: #ccc;
+  background-color: #f4f8f9;
+  cursor: pointer;
+}
+
+.edit_profile > div > div > p {
+  color: #757575;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.edit_profile_container {
+  overflow: hidden;  
+}
+
+.edit_profile_btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+  float: left;
+}
+
+.edit_profile_btn > div {
+  width: 50%;  
+  float: left;
+}
+
+.edit_profile_btn > div > p {
+  text-transform: capitalize;
+  color: #FF8F0C;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.edit__btn__inside {
+  width: 150px;
+  float: right;
+  margin-top: 5px;
+  height: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #FF8F0C;
+}
+
+.edit__btn__inside > button {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  padding: 5px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.name_red {
+  color: #FF0000;
+}
+
+.name_green {
+  color: #3FD4AA;
+}
+
+.status_active {
+  width: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.status_active > div {
+  width: 50%;
+  float: left;
+}
+
+.status_active > div > img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.edit_profile_loader {
+  padding-top: 20px;
+}
+
+.edit_profile_loader > div {
+  width: 20px;
+  margin-left: 30px;
+}
+
+.edit_profile_loader > div > div {
+  width: 100%;
+}
+
+.success_div {
+  max-width: 800px;
+  margin: 100px auto;
+  box-shadow: 0 5px 10px 5px #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  /* background-color: #fff; */
+  background-color: #0b2591;
+  background-image: url('/images/login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.success_div_img {  
+  padding: 20px 0;
+}
+
+.success_div_img > div {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #0b2591;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.success_div_img > div > img {
+  width: 70px;
+}
+
+.success_div_details {
+  padding: 20px 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.success_div_details > span {
+  font-weight: 600;
+  max-width: 500px;
+  font-size: 2em;
+  color: #ccc;
+}
+
+.success_div_details > p {
+  color: #ccc;
+}
+
+.success_div_details > div > div {
+  width: 200px;  
+  text-align: center;
+  margin: 50px auto 0 auto;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #FF8F0C;
+}
+
+.go__home {
+  padding: 20px 0;  
+}
